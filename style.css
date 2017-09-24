@@ -1,7 +1,13 @@
-body {
-  font-family: cursive, sans-serif:
+div.mainimage {
+  border-style: solid;
 }
-
-h1 {
-  color: red
+div.textsearch input {
+  width: 500px;
+  height: 30px;
+}
+div.googlesearch {
+  color: #d3d3d3;
+}
+div.feelinglucky {
+  color: green
 }
