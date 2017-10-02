@@ -1,27 +1,25 @@
-a {
-  color: blue !important;
-  text-decoration: underline;
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #b5b5b7;
+  background-color: #252839;
 }
-a:hover {
-  text-decoration: underline;
+
+nav.navheader {
+  background-color: #f2b632 !important;
 }
 
 div.topsection {
-  min-height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-div.awesomeness {
+  color: #f2b632;
   min-height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
 }
 
 div.middlethree {
-  min-height: 100px;
+  min-height: 250px;
+  padding-top: 60px;
 }
 
 figure {
@@ -43,4 +41,6 @@ figure figcaption {
 div.footer {
   display: flex;
   justify-content: center;
+  min-height: 250px;
+  padding-top: 100px;
 }
